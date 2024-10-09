@@ -9,7 +9,7 @@ const client = createClient({ name: 'reserve_seat' });
 const queue = createQueue();
 const INITIAL_SEATS_COUNT = 50;
 let reservationEnabled = false;
-const PORT = 6379;
+const PORT = 1245;
 
 /**
  * Modifies the number of available seats.
